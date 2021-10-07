@@ -20,7 +20,7 @@ class UsageError extends Error {}
  * @param {string} demoPath - The absolute path to the demo JavaScript file.
  */
 async function buildDemo(demoName, demoPath) {
-  const demoDirectoryPath = path.resolve(__dirname, '..', 'docs', demoName);
+  const demoDirectoryPath = path.join(__dirname, 'dist', demoName);
 
   try {
     await fs.access(demoDirectoryPath, fsConstants.W_OK);

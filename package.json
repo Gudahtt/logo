@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "convert": "node convert.js",
-    "demo": "node example/build.js",
+    "demo": "node demo/build.js",
     "lint": "yarn lint:eslint && yarn lint:misc --check",
     "lint:eslint": "eslint . --cache --ext js,ts",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",

@@ -1,6 +1,9 @@
 # Optional eslint cache
 .eslintcache
 
+# Demo build files
+/demo/dist/*/*.js
+
 ### OSX ###
 .DS_Store
 .AppleDouble
